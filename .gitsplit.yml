@@ -1,0 +1,18 @@
+# Used to speed up the split over time by reusing git's objects
+cache_dir: "/cache/gitsplit"
+
+# Path to the repository to split (default = current path)
+#project_dir: 
+
+# List of splits.
+splits:
+  - prefix: "sub1"
+    target: "https://${GH_TOKEN}@github.com/jacquesbh/sub1.git"
+
+# List of references to split (defined as regexp)
+origins:
+  - ^master$
+  - ^develop$
+  - ^feature/
+  - ^v\d+\.\d+\.\d+$
+
