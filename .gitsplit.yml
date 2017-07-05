@@ -10,7 +10,7 @@ splits:
       - "sub1"
       - "sub1/toto:titi"
       - "js/mon-js:js"
-      - "sub1/toto/test.md:"
+      - "sub1/toto/test.md:test.md"
     target: "https://${GH_TOKEN}@github.com/jacquesbh/sub1.git"
 
 # List of references to split (defined as regexp)
