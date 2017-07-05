@@ -8,7 +8,7 @@ cache_dir: "/cache/gitsplit"
 splits:
   - prefix:
       - "sub1"
-      - "js/mon-js"
+      - "js/mon-js:js"
     target: "https://${GH_TOKEN}@github.com/jacquesbh/sub1.git"
 
 # List of references to split (defined as regexp)
