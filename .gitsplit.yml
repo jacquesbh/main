@@ -8,6 +8,7 @@ cache_dir: "/cache/gitsplit"
 splits:
   - prefix:
       - "sub1"
+      - "sub1/toto:titi"
       - "js/mon-js:js"
     target: "https://${GH_TOKEN}@github.com/jacquesbh/sub1.git"
 
